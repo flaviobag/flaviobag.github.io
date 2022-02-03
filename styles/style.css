@@ -5,6 +5,7 @@
     background-color: var(--green);      
     margin: 0;
 }
+
 .titulo-principal{
     text-align: center;
     color: var(--grey);
@@ -12,17 +13,21 @@
     font-size: 6rem;
     padding: 1rem;
 }
+
 .imagem-perfil{
     width: 15rem;
-    border-radius: 560px;
-    float: left;
+    border-radius: 50%;
 }
+
 .main{
     background-color: var(--grey);
-    height: 40rem;
-    float: left;
     padding: 1rem;
 }
-p{
-   font-size: 1.5rem;   
+
+.secao{
+    display:flex;
+}
+
+.descricao{
+   font-size: 2rem;   
 }
