@@ -1,12 +1,12 @@
 @import url("reset.css");
 @import url("variables.css");
 
-.cabecalho{
+.cabecalho {
     background-color: var(--green);      
     margin: 0;
 }
 
-.titulo-principal{
+.titulo-principal {
     text-align: center;
     color: var(--grey);
     font-family: var(--primary-font);
@@ -14,20 +14,21 @@
     padding: 1rem;
 }
 
-.imagem-perfil{
-    width: 15rem;
+.imagem-perfil {
+    width: 240px;
     border-radius: 50%;
 }
 
-.main{
+.main {
     background-color: var(--grey);
     padding: 1rem;
 }
 
-.secao{
+.secao {
     display:flex;
+    align-items: center;
 }
 
-.descricao{
+.descricao {
    font-size: 2rem;   
 }
