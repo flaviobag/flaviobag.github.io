@@ -1,7 +1,5 @@
 :root{
-
         --grey: #c4c4c4;
         --green: #008000;
-        --primary-font: font-family:'Roboto', sans-serif;;
-
+        --primary-font:'Roboto', sans-serif;
 };
