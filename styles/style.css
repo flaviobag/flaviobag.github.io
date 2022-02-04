@@ -32,3 +32,16 @@
 .descricao {
    font-size: 2rem;   
 }
+
+.lista-links{
+    display: flex;
+}
+
+.logos{
+    width: 5rem;
+    height: 5rem;
+}
+
+.links{
+    font-size: 3rem;
+}
