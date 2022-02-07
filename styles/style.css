@@ -33,33 +33,29 @@
    font-size: 2rem;   
 }
 
-.lista-links{
+.lista-links {
     display: flex;
 }
 
-.logo{
-    height: 5rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
+.logo {
     width: 5rem;
 }
 
-.item-lista{
+.item-lista {
     align-items: center;
     color: var(--black);
     display: flex;
     font-size: 3rem;
     justify-content: center;
     list-style: none;
-    margin-left: 2rem;
 }
 
-.lista{
+.lista {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 
-.link{
+.link {
     font: var(--primary-font);
     color: var(--black);   
 }
