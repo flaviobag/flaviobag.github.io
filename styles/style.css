@@ -7,16 +7,16 @@
 }
 
 .titulo-principal {
-    text-align: center;
     color: var(--grey);
     font-family: var(--primary-font);
     font-size: 6rem;
     padding: 1rem;
+    text-align: center;
 }
 
 .imagem-perfil {
-    width: 240px;
     border-radius: 50%;
+    width: 240px;
 }
 
 .main {
@@ -25,10 +25,41 @@
 }
 
 .secao {
-    display:flex;
     align-items: center;
+    display:flex;
 }
 
 .descricao {
    font-size: 2rem;   
+}
+
+.lista-links {
+    display: flex;
+}
+
+.logo {
+    width: 5rem;
+}
+
+.item-lista {
+    align-items: center;
+    color: var(--black);
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    list-style: none;
+}
+
+.lista {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.link {
+    align-items: center;
+    color: var(--black);   
+    display: flex;
+    font: var(--primary-font);
+    gap: 2rem;
 }
