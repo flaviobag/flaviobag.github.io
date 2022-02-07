@@ -52,10 +52,14 @@
 
 .lista {
     display: flex;
+    gap: 5rem;
     justify-content: center;
 }
 
 .link {
-    font: var(--primary-font);
+    align-items: center;
     color: var(--black);   
+    display: flex;
+    font: var(--primary-font);
+    gap: 2rem;
 }
