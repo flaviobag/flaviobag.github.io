@@ -1,6 +1,10 @@
 @import url("reset.css");
 @import url("variables.css");
 
+body {
+    background-color: var(--grey);
+}
+
 .cabecalho {
     background-color: var(--green);      
     margin: 0;
@@ -15,12 +19,12 @@
 }
 
 .imagem-perfil {
-    border-radius: 50%;
+    border-radius: 4.938rem;
     width: 240px;
+    margin-right: 1rem;
 }
 
 .main {
-    background-color: var(--grey);
     padding: 1rem;
 }
 
@@ -62,4 +66,18 @@
     display: flex;
     font: var(--primary-font);
     gap: 2rem;
+}
+
+.botao-curriculo{
+    background-color: var(--green);
+    border-radius: 0.6250rem;
+    color: var(--grey);
+    display: block;
+    font-family: inherit;
+    font-size: 3rem;
+    margin: 5rem auto 0;
+    padding: 0.25rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
 }
