@@ -1,11 +1,9 @@
 @import url("reset.css");
 @import url("variables.css");
-/* git */
 
 body {
     background-color: var(--grey);
 }
-
 
 .cabecalho {
     background-color: var(--green);      
@@ -28,8 +26,8 @@ body {
 
 .imagem-perfil {
     border-radius: 4.938rem;
-    width: 240px;
     margin-right: 1rem;
+    width: 240px;
 }
 
 @media (max-width:720px){
@@ -49,10 +47,11 @@ body {
 
 @media (max-width: 720px){
     .secao {
-        margin-bottom: 1.5rem;
         flex-direction: column;
+        margin-bottom: 1.5rem;
     }
 }
+
 .descricao {
    font-size: 2rem;   
 }
@@ -87,13 +86,8 @@ body {
 }
 
 @media (max-width:768px){
-    .item-lista {
-        align-items: center;
-        color: var(--black);
-        display: block;
-        font-size: 2rem;
-        justify-content: center;
-        list-style: none;
+    .item-lista {       
+        font-size: 2rem;        
     }
 }
 
@@ -106,8 +100,6 @@ body {
 @media (max-width: 768px){
     .lista {
         display: inline-block;
-        gap: 5rem;
-        justify-content: center;
     }
 }
 
@@ -121,11 +113,7 @@ body {
 
 @media(max-width:768px){
     .link {
-        align-items: center;
-        color: var(--black);   
         display: inline-flex;
-        font: var(--primary-font);
-        gap: 2rem;
         margin-bottom: 2rem;
     }
 }
